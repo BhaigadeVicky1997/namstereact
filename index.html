@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Namste React</title>
+    <title>React Example</title>
+    <link rel="stylesheet" href="./index.css"></link>
 </head>
+
 <body>
-<div id="root"></div>
+    <div id="change">
+        
+    </div>
+    <h1>Above Root</h1>
+    <div id="root">
+        <h1>Hey! Hii</h1>
+    </div>
+    <h1>Below Root</h1>
+
+    <!-- Import React and React DOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="./app.js"></script>
 </body>
-<script>
-    let createdDoc = document.createElement('h1');
-    console.log(createdDoc);
-</script>
+
 </html>
