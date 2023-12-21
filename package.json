@@ -1,0 +1,28 @@
+{
+  "name": "namstereact",
+  "version": "1.0.0",
+  "description": "this is react course",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhaigadeVicky1997/namstereact.git"
+  },
+  "author": "vicky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhaigadeVicky1997/namstereact/issues"
+  },
+  "homepage": "https://github.com/BhaigadeVicky1997/namstereact#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
